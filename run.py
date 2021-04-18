@@ -51,7 +51,7 @@ AES-Encryptor                |                    Dr.D3ViLaM
             warning(Fore.YELLOW+"[WARNING] : Default key values will be destroy after closing app because they are generate randomly\nIf your data is sensitive and you need to access them after days use your own key")
             key = def_key
 
-        elif len(key) % 16 != 0:
+        elif len(key) != 16 or len(key) != 24 or len(key) != 32:
             error(f"key must be 16/24/32, not {key}")
             exit(-1)
         else:
