@@ -38,7 +38,7 @@ then simply use methods:
 
 ## Decrypt text
 
-```decrypted = instance.encrypttext(encrypted)```
+```decrypted = instance.decrypttext(encrypted)```
 
 ```print(decrypted)```
 
