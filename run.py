@@ -20,7 +20,7 @@ init(autoreset=True)
 
 
 def main():
-    os.system("clear")
+    system("clear")
     print(Fore.RED+Back.BLACK+"""
 AES-Encryptor                |                    Dr.D3ViLaM
 ==== ================================================== ====
