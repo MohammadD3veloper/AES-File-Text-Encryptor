@@ -117,9 +117,11 @@ class FileEncryptor:
             for f in files:
                 if self.decryptfile(path + '/' + f) == True:
                     print(f"{f} Decrypted.")
+            return 1
 
         else:
             raise Exception("No Such Directory in path")
+            return 0
 
     def encrypttext(self, message:str) -> str:
         """
